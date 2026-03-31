@@ -7,7 +7,7 @@ from vision import analyze_xray
 from rag import process_pdf_to_faiss, get_context_from_db
 from llm import generate_medical_insight
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCbMTg5kLPwiy7UDGhkm-AcOueAnq7-oM8"
+os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY"
 
 # ... kodun geri kalanı aynı şekilde devam edecek ...
 
